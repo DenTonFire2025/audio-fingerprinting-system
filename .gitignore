@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# Тестовые фрагменты, которые app.py / aiapp.py генерируют при запуске
+test_noisy.wav
+test_query.wav
+noisy_ai.wav
+
+# Аудиобаза — не коммитить реальные (возможно, чужие) треки
+audio_database/*.wav
+!audio_database/.gitkeep
